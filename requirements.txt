@@ -1,0 +1,12 @@
+scapy
+netifaces
+colorama
+requests
+bs4
+socket
+subprocess
+argparse
+os
+sys
+time
+threading
