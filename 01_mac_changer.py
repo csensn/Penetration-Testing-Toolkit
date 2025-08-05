@@ -16,7 +16,6 @@ def get_arguments():
     else:
         return options
 
-#print("Satguru")
 
 def change_mac(interface, new_mac):
     print("[+] Mac Address  change of " + interface + " to " + new_mac)
@@ -53,4 +52,5 @@ current_mac = get_mac(options.interface)
 if current_mac == options.new_mac:
     print("[+] Mac address is successfully changed to " + current_mac)
 else:
+
     print("[-] Mac address is not change")
